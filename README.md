@@ -1,3 +1,18 @@
+# Weather App
+
+
+[Kodluyoruz](https://www.kodluyoruz.org/)  Front-End eğitimi için hazırlanan 'Orta Seviye Front-End Web Development Patikası' projesidir. 
+
+Konu: OpenWeather API ile Türkiye'nin tüm illerinin hava raporunu görüntülemek.
+
+Proje Görseli: 
+![Alt text](src/img/weather-app.png)
+
+Proje linki:
+
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

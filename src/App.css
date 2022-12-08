@@ -1,38 +1,77 @@
-.App {
+.app {
   text-align: center;
+  color: black;
+  background-color: rgb(186, 207, 225);
+  height: 70vh;
+  width: 1000px;
+  margin: 0px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app.dark {
+  color: azure;
+  background-color: #445760;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app a {
+  text-decoration: none;
+  color: #28353b;
+}
+.app.dark a  {
+  text-decoration: none;
+  color: #f3f3f3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#select {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  margin-top: 2vh;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.Main {
+  font-size: 20px;
+  height: 227px;
+  background-color: #85c9dd;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.today {
+  background-color: rgb(27, 122, 122);
+  color: #28353b;
+  border-radius: 5px;
+}
+.today.dark {
+  color: azure;
+  background-color: #28353b
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dailyWeather {
+  width: 200px;
+} 
+
+.dailyWeather img {
+  width: 75;
+  height: 75px;
+}
+
+.dailyWeather div {
+  padding-bottom: 20px;
+}
+
+.dailyWeather div span {
+  padding: 3px;
+}
+
+.loading {
+  width:200px;
+  border-radius: 5px;
 }
