@@ -5,10 +5,12 @@
 
 Konu: OpenWeather API ile Türkiye'nin tüm illerinin hava raporunu görüntülemek.
 
+Proje linki: https://weather-cancelik.netlify.app/
+
 Proje Görseli: 
 ![Alt text](src/img/weather-app.png)
 
-Proje linki: https://weather-cancelik.netlify.app/
+
 
 
 <hr>
